@@ -155,8 +155,3 @@ When deploying to cloud platforms like **Render**:
    - Launches the Express server serving both the REST API endpoints and static frontend assets.
 
 ---
-
-## 🎓 College Project Highlights
-- **Clean Architecture**: Clear separation of concerns between client UI, Express backend controllers, Mongoose schemas, and authentication middleware.
-- **Security Best Practices**: Passwords hashed with `bcryptjs` and route authorization via `JWT`.
-- **Production-Ready UI**: Responsive layout using Tailwind CSS with interactive charts, status filters, search controls, and accessibility considerations.
