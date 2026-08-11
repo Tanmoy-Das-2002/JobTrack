@@ -117,22 +117,42 @@ JWT_SECRET=your_jwt_secret_key_here
 1. **Install dependencies**:
    ```bash
    npm install
+   # or with Bun:
+   bun install
    ```
 
 2. **Start the development server**:
    ```bash
    npm run dev
+   # or with Bun:
+   bun run dev
    ```
 
 3. **Build for production**:
    ```bash
    npm run build
+   # or with Bun:
+   bun run build
    ```
 
 4. **Start production server**:
    ```bash
    npm run start
+   # or with Bun:
+   bun run start
    ```
+
+---
+
+## ☁️ Production Deployment (e.g., Render, Railway, Heroku)
+
+When deploying to cloud platforms like **Render**:
+
+1. **Environment Variables**: Set `MONGO_URI`, `JWT_SECRET`, and `NODE_ENV=production`.
+2. **Build Command**: `npm run build` (or `bun run build`)
+   - Bundles the React frontend into `dist/` and builds `server.js` into CommonJS (`dist/server.cjs`).
+3. **Start Command**: `npm run start` (or `bun run start` / `node dist/server.cjs`)
+   - Launches the Express server serving both the REST API endpoints and static frontend assets.
 
 ---
 
