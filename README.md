@@ -1,6 +1,6 @@
 # JobTrack - Student Placement & Application Tracker
 
-A full-stack web application designed for students and job seekers to track job applications, schedule interview rounds, visualize application metrics, and manage career placements.
+JobTrack is a full-stack job application and placement tracking platform built for students and job seekers. It provides secure authentication, application lifecycle management, interview scheduling, analytics, and data backup through a RESTful Node.js/Express API backed by MongoDB Atlas.
 
 ---
 
@@ -162,6 +162,13 @@ NODE_ENV=development
    # or with Bun:
    bun run start
    ```
+
+### Render Deployment
+
+- Runtime: Node
+- Build Command: `bun install && bun run build`
+- Start Command: `bun run start`
+- Instance: Free
 
 ---
 
