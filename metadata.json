@@ -1,0 +1,6 @@
+{
+  "name": "JobTrack",
+  "description": "Full-stack job application & placement tracker for students and job seekers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
